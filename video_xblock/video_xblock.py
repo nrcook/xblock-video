@@ -25,13 +25,13 @@ from xblock.fragment import Fragment
 from xblock.validation import ValidationMessage
 from xblockutils.studio_editable import StudioEditableXBlockMixin
 
+from .settings import ALL_LANGUAGES
 from . import __version__
 from .backends.base import BaseVideoPlayer
 from .constants import PlayerName, TranscriptSource
 from .exceptions import ApiClientError
 from .fields import RelativeTime
 from .mixins import ContentStoreMixin, LocationMixin, PlaybackStateMixin, SettingsMixin, TranscriptsMixin
-from .settings import ALL_LANGUAGES
 from .utils import (
     create_reference_name, filter_transcripts_by_source, normalize_transcripts,
     render_resource, render_template, resource_string, ugettext as _,
