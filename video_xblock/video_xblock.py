@@ -26,8 +26,7 @@ from xblock.validation import ValidationMessage
 from xblockutils.studio_editable import StudioEditableXBlockMixin
 
 from . import __version__
-from .backends import *
-# from .backends.base import BaseVideoPlayer
+from .backends.base import BaseVideoPlayer
 from .constants import PlayerName, TranscriptSource
 from .exceptions import ApiClientError
 from .fields import RelativeTime
